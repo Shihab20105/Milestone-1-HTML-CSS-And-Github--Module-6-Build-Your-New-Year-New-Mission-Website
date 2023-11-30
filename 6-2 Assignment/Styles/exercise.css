@@ -1,5 +1,73 @@
 /* styles.css */
+* {
+    font-family: 'Work Sans', sans-serif;
+    color: #FFF;
+}
 
-.footer{
-    text-align: center;
+/* Style for the button */
+.btn-primary {
+    
+    cursor: pointer;
+    width: 160px;
+    height: 64px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    color: #005FAC;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0px;
+
+}
+
+/* Style for the outer container (e.g., a section or div) */
+/* banner---------------------------------- */
+.banner-container {
+    position: relative;
+    width: 1600px;
+    max-height: 800px;
+    overflow: hidden;
+    /* Set your desired width */
+}
+
+/* Style for the image inside the outer container */
+.image-container  {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+
+}
+
+/* banner right --------------------------- */
+/* Style for the inner container (e.g., a div) containing title, description, and button */
+.banner-right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    width: 525px;
+    height: 600px;
+    text-align: right;
+    padding: 30px;
+    /* Set your text color */
+}
+
+.title {
+    width: 525px;
+    height: 228px;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.description {
+    width: 495px;
+    height: 80px;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
 }

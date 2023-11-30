@@ -1,0 +1,347 @@
+/*---------------
+Common CSS
+------------------*/
+* {
+    font-family: 'Work Sans', sans-serif;
+    color: #FFF;
+}
+
+.btn-primary {
+    border: 0px;
+    width: 155px;
+    height: 60px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+/*---------------
+Banner
+-------------------*/
+/* Banner Section  */
+.banner-container {
+    position: relative;
+    width: 1600px;
+    max-height: 800px;
+    overflow: hidden;
+}
+
+/*Banner Image Section  */
+.image-container {
+    display: block;
+}
+
+/* Banner Right Section  */
+.banner-right-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    position: absolute;
+    width: 525px;
+    height: 600px;
+    text-align: right;
+    padding: 30px;
+    top: 50px;
+    left: 800px;
+}
+
+.title {
+    width: 530px;
+    height: 230px;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.title-description {
+    width: 495px;
+    height: 80px;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+
+/*---------------------
+Description
+--------------------*/
+/* Description Section  */
+.description-container {
+    display: flex;
+    position: relative;
+    width: 1600px;
+    height: 800px;
+
+}
+
+.description-image-container {
+    position: relative;
+    align-items: center;
+    padding-top: 70px;
+    width: 50%;
+    height: 800px;
+
+}
+
+.description-image-container img {
+    position: relative;
+    height: 800px;
+    left: 100px;
+}
+
+/* Description Right Section  */
+.description-right-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 420px;
+    height: 520px;
+    text-align: left;
+    margin-top: 300px;
+
+}
+
+.description-title {
+    width: 280px;
+    height: 95px;
+    color: var(--Dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.description-paragraph {
+    width: 420px;
+    height: 105px;
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+
+.description-list {
+    position: relative;
+    width: 295px;
+    height: 270px;
+    margin-top: 5px;
+}
+
+.description-list ul li {
+    list-style: none;
+    display: flex;
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.description-list ul li .material-symbols-outlined {
+    font-size: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 10px;
+    margin-left: 1px;
+    color: #16D887;
+
+}
+
+.description-list ul {
+    padding-inline-start: 0px;
+
+}
+
+
+
+
+/*----------------------
+My Plans
+----------------------*/
+.my-plans {
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+.my-plans-title {
+
+    text-align: center;
+    color: var(--Dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.my-plans-container {
+    position: relative;
+    width: 1100px;
+    height: 218px;
+    margin-left: 190px;
+
+}
+
+.my-plans-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 1100px;
+    height: 215px;
+
+
+
+}
+
+.png {
+    margin-top: 5px;
+    margin-left: 80px;
+}
+
+.icon-title {
+    color: var(--Dark-01, #151414);
+    font-size: 25px;
+    font-weight: 700;
+    width: 270px;
+    height: 35px;
+    text-align: center;
+
+}
+
+.icon-description {
+    color: var(--Dark-03, #737272);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+/*-------------------
+Call Now
+----------------------*/
+.call-now-container {
+    position: relative;
+    width: 1120px;
+    height: 250px;
+    background-image: url('../images/watch.png');
+    left: 180px;
+    border-radius: 8px;
+}
+
+.call-now-title {
+    position: relative;
+    width: 460px;
+    height: 95px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.gradient-png {
+    width: 1120px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.call-now-title {
+    position: relative;
+    margin-top: -210px;
+    left: 50px;
+}
+
+.call-now-btn {
+    position: relative;
+    margin-top: -20px;
+    border: 0px;
+    width: 155px;
+    height: 60px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    left: 50px;
+}
+
+/*-----------------
+Footer
+-----------------------*/
+.footer-container {
+    display: flex;
+    background: var(--Dark-01, #151414);
+    width: auto;
+    height: 400px;
+    gap: 250px;
+    padding: 70px 180px;
+    margin-top: 100px;
+}
+
+/* Footer Left  */
+
+.footer-title-l {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 490px;
+    height: 80px;
+}
+
+.footer-email {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-phone {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    height: 50px;
+
+}
+
+/* Footer Right  */
+.footer-title-r {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.footer-placeholder {
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-btn {
+    border: 0px;
+    width: 155px;
+    height: 60px;
+    border-radius: 8px;
+    background: #005FAC;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
